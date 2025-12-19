@@ -1,0 +1,623 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+  <style>
+    .righteous-regular {
+      font-family: "Righteous", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Guvi Travell</title>
+</head>
+
+<body class="righteous-regular">
+
+  <header>
+    <!-- main div -->
+    <div>
+      <nav class="flex items-center justify-between pe-16">
+        <div>
+          <a href="" class="mt-2">
+            <img src="picture/logo.png" class="h-16 w-auto">
+          </a>
+        </div>
+        <!-- nav menu -->
+        <div class="flex gap-x-10">
+          <a href="" class="hover:text-gary-700">Home</a>
+          <a href="" class="hover:text-gary-700">About</a>
+          <a href="" class="hover:text-gary-700">Courses</a>
+          <a href="" class="hover:text-gary-700">Contact</a>
+        </div>
+        <!-- icons -->
+        <div class="flex gap-x-4">
+          <a href=""><i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <span class="bg-green-500 rounded-full px-1 ml-3 text-center text-white absolute top-1">0</span>
+          <a href=""><i class="fa-regular fa-circle-user"></i></a>
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <!-- Login sectioin -->
+        <div class="flex gap-6 text-sm">
+          <div>
+            <a href=""
+              class=" hover:bg-gradient-to-l from-violet-700 via-indigo-700 to-blue-700  px-4 py-2 rounded-lg ">Login</a>
+          </div>
+          <div>
+            <a href=""
+              class=" hover:bg-gradient-to-l from-violet-700 via-indigo-700 to-blue-700  px-4 py-2 rounded-lg">Signup</a>
+          </div>
+        </div>
+
+      </nav>
+    </div>
+    <!--Hero section -->
+    <section class="bg-gradient-to-l from-violet-400 via-indigo-700 to-blue-700 text-white">
+      <div class="max-w-7xl mx-auto px-7 pt-20 pb-16">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+
+          <!-- LEFT CONTENT -->
+          <div>
+            <p>Successful coaches are visionaries</p>
+
+            <h1 class="text-4xl md:text-5xl py-3">
+              Good <span class="text-blue-300">coaching</span><br>
+              is good teaching &<br>
+              nothing else.
+            </h1>
+
+            <div class="flex flex-wrap gap-5 my-8">
+              <button class="hover:border rounded px-6 py-4">
+                View Courses
+              </button>
+
+              <button class="hover:border rounded px-6 py-3">
+                Get Free Consultation
+              </button>
+            </div>
+
+            <!-- Search -->
+            <form class="mt-10">
+              <div class="relative w-full max-w-xl">
+                <input type="text" placeholder="What do you want to learn today?"
+                  class="w-full rounded-lg bg-white text-black p-3 pr-32" />
+                <button class="absolute right-2 top-1/2 -translate-y-1/2
+              bg-gradient-to-l from-violet-900 via-indigo-700 to-blue-700
+              px-4 py-2 rounded-lg flex items-center gap-2">
+                  <i class="fa-solid fa-magnifying-glass text-sm"></i>
+                  Search
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- RIGHT IMAGE + TESTIMONIAL -->
+          <div class="relative flex justify-center md:justify-end">
+
+            <!-- Testimonial Card -->
+            <div class="absolute top-8 left-0 md:-left-16 
+                    p-4 rounded-xl w-64 hidden sm:flex gap-3">
+              <img src="picture/Group 1000014970.png" class="h-24 w-5" alt="">
+              <div>
+                <h4 class="text-sm font-semibold">Shyam</h4>
+                <p class="text-xs leading-4  my-1">
+                  In a coaching role, you ask the questions and rely more on your staff,
+                  who become the experts, to provide the information.
+                </p>
+                <span class="text-xs text-sky-400 font-semibold">4.9</span>
+              </div>
+            </div>
+
+            <!-- Ellipse -->
+            <img src="picture/Ellipse 8324 (1).png" class="absolute bottom-0 right-10 w-72 hidden md:block" />
+
+            <!-- Woman Image -->
+            <img src="picture/brunette-woman-hugging-laptop_1__3_-removebg-preview.png"
+              class="relative w-[70%] md:w-[80%] max-w-md object-contain" />
+
+          </div>
+
+        </div>
+      </div>
+      <!-- BRANDS SECTION -->
+      <section class="bg-gradient-to-r from-purple-700 to-indigo-600 py-10">
+        <div class="max-w-7xl mx-auto px-6">
+
+          <div class="flex flex-wrap justify-center items-center gap-10
+             text-white opacity-80">
+
+            <img src="picture/Link ⏵ brand6.png (1).png" class="h-8 object-contain" alt="Brand">
+            <img src="picture/Link ⏵ brand1.png (1).png" class="h-8 object-contain" alt="Brand">
+            <img src="picture/Link ⏵ brand6.png (1).png" class="h-8 object-contain" alt="Brand">
+            <img src="picture/Link ⏵ brand3.png.png" class="h-8 object-contain" alt="Brand">
+            <img src="picture/Link ⏵ brand5.png.png" class="h-8 object-contain" alt="Brand">
+            <img src="picture/Link ⏵ brand1.png (1).png" class="h-8 object-contain" alt="Brand">
+
+          </div>
+
+        </div>
+      </section>
+
+    </section>
+
+
+  </header>
+  <!-- heading section -->
+  <section>
+
+    <!-- main div -->
+    <div class="bg-gray-200">
+      <div>
+        <span>
+          <img src="picture/Ellipse 118.png" class="h-8" alt="">
+        </span>
+        <div class="">
+          <h1 class="text-2xl text-center mb-4">Featured <span class="text-blue-400">Course</span></h1>
+          <p class="  text-gray-700 text-center">The feature courses are we invented our teaching part</p>
+        </div>
+      </div>
+
+      <!-- cards section  -->
+      <div class="px-6 md:px-10 lg:px-14 py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <!-- CARD 1 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <img src="picture/Mask group (1).png" class="w-full">
+
+            <div class="flex justify-between text-gray-500 text-sm px-4 py-3">
+              <span>1,957 Students</span>
+              <span>01h 59m</span>
+            </div>
+
+            <div class="px-4">
+              <p class="text-xl text-gray-700">
+                Motion Graphics: Create a Nice Typography Animation
+              </p>
+            </div>
+
+            <div class="flex justify-between items-center px-4 py-4">
+              <span class="text-gray-500">Rs.499</span>
+              <i class="fa-solid fa-cart-arrow-down text-black"></i>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <img src="picture/Mask group (2).png" class="w-full">
+
+            <div class="flex justify-between text-gray-500 text-sm px-4 py-3">
+              <span>1,957 Students</span>
+              <span>01h 59m</span>
+            </div>
+
+            <div class="px-4">
+              <p class="text-xl text-gray-700">
+                Motion Graphics: Create a Nice Typography Animation
+              </p>
+            </div>
+
+            <div class="flex justify-between items-center px-4 py-4">
+              <span class="text-gray-500">Rs.499</span>
+              <i class="fa-solid fa-cart-arrow-down text-black"></i>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <img src="picture/Mask group (3).png" class="w-full">
+
+            <div class="flex justify-between text-gray-500 text-sm px-4 py-3">
+              <span>1,957 Students</span>
+              <span>01h 59m</span>
+            </div>
+
+            <div class="px-4">
+              <p class="text-xl text-gray-700">
+                Motion Graphics: Create a Nice Typography Animation
+              </p>
+            </div>
+
+            <div class="flex justify-between items-center px-4 py-4">
+              <span class="text-gray-500">Rs.499</span>
+              <i class="fa-solid fa-cart-arrow-down text-black"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- cards section  -->
+      <div class="px-6 md:px-10 lg:px-14 py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <!-- CARD 1 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <img src="picture/Mask group (4).png" class="w-full">
+
+            <div class="flex justify-between text-gray-500 text-sm px-4 py-3">
+              <span>1,957 Students</span>
+              <span>01h 59m</span>
+            </div>
+
+            <div class="px-4">
+              <p class="text-xl text-gray-700">
+                Motion Graphics: Create a Nice Typography Animation
+              </p>
+            </div>
+
+            <div class="flex justify-between items-center px-4 py-4">
+              <span class="text-gray-500">Rs.499</span>
+              <i class="fa-solid fa-cart-arrow-down text-black"></i>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <img src="picture/Mask group (5).png" class="w-full">
+
+            <div class="flex justify-between text-gray-500 text-sm px-4 py-3">
+              <span>1,957 Students</span>
+              <span>01h 59m</span>
+            </div>
+
+            <div class="px-4">
+              <p class="text-xl text-gray-700">
+                Motion Graphics: Create a Nice Typography Animation
+              </p>
+            </div>
+
+            <div class="flex justify-between items-center px-4 py-4">
+              <span class="text-gray-500">Rs.499</span>
+              <i class="fa-solid fa-cart-arrow-down text-black"></i>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <img src="picture/Mask group (6).png" class="w-full">
+
+            <div class="flex justify-between text-gray-500 text-sm px-4 py-3">
+              <span>1,957 Students</span>
+              <span>01h 59m</span>
+            </div>
+
+            <div class="px-4">
+              <p class="text-xl text-gray-700">
+                Motion Graphics: Create a Nice Typography Animation
+              </p>
+            </div>
+
+            <div class="flex justify-between items-center px-4 py-4">
+              <span class="text-gray-500">Rs.499</span>
+              <i class="fa-solid fa-cart-arrow-down text-black"></i>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="flex justify-center">
+          <button class="text-white   bg-gradient-to-l from-violet-900 via-indigo-700 to-blue-700
+                 text-white  py-3 px-5 mt-12 text-center rounded-lg">Explore courses</button>
+        </div>
+      </div>
+      <!-- hero section 2 -->
+      <div class="mt-10 sm:mt-14 lg:mt-20
+         bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-600
+         px-4 sm:px-8 lg:px-20">
+
+        <!-- Heading & Paragraph -->
+        <div class="text-center pt-14 sm:pt-20 pb-8 sm:pb-10">
+          <h1 class="text-lg sm:text-2xl lg:text-3xl font-semibold text-white">
+            Why <span class="text-blue-500">learn</span> with our courses?
+          </h1>
+
+          <p class="font-poppins text-white
+             text-sm sm:text-base lg:text-lg
+             leading-relaxed opacity-80
+             mt-3 max-w-md sm:max-w-xl lg:max-w-2xl
+             mx-auto px-2">
+            We are providing the best courses and top classes.
+            And extraordinary placement training.....
+          </p>
+        </div>
+
+        <!-- Image -->
+        <div class="pb-12 sm:pb-16 flex justify-center">
+          <img src="picture/Group 1000014985.png" alt="" class="w-[220px] sm:w-[320px] md:w-[380px] lg:w-[480px] xl:w-[520px]
+             h-auto">
+        </div>
+
+      </div>
+      <!-- hero section 2 -->
+
+      <!--- categories cards section -->
+
+      <div class="p-10">
+        <div>
+          <h1 class=" text-center text-3xl mb-2 ">Top <span class="text-blue-600">Categories</span></h1>
+          <p class="text-center text-gray-600 mb-10">100+ unique online course list designs</p>
+        </div>
+
+        <!-- small cards -->
+        <section class=" py-12 px-4 sm:px-8 lg:px-20">
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6">
+
+            <!-- Card 1 -->
+            <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+              <img src="picture/div.features-box-image.png" alt="" class="h-15 mx-auto mb-4">
+
+              <h3 class="text-lg font-semibold text-gray-800 mb-4">
+                Digital Marketing
+              </h3>
+
+              <h4 class="text-sm text-gray-500 mt-1">
+                25 Courses
+              </h4>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+              <img src="picture/div.features-box-image (1).png" alt="" class="h-15 mx-auto mb-4">
+
+              <h3 class="text-lg font-semibold text-gray-800 mb-4">
+                Web Development
+              </h3>
+
+              <h4 class="text-sm text-gray-500 mt-1">
+                30 Courses
+              </h4>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+              <img src="picture/div.features-box-image (2).png" alt="" class="h-15 mx-auto mb-4">
+
+              <h3 class="text-lg font-semibold text-gray-800 mb-4">
+                Digital Marketing
+              </h3>
+
+              <h4 class="text-sm text-gray-500 mt-1">
+                25 Courses
+              </h4>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+              <img src="picture/div.features-box-image (4).png" alt="" class="h-15 mx-auto mb-4">
+
+              <h3 class="text-lg font-semibold text-gray-800 mb-4">
+                Digital Marketing
+              </h3>
+
+              <h4 class="text-sm text-gray-500 mt-1">
+                25 Courses
+              </h4>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+              <img src="picture/div.features-box-image (3).png" alt="" class="h-15 mx-auto mb-4">
+
+              <h3 class="text-lg font-semibold text-gray-800 mb-4">
+                Digital Marketing
+              </h3>
+
+              <h4 class="text-sm text-gray-500 mt-1">
+                25 Courses
+              </h4>
+            </div>
+            <!-- Card 6 -->
+            <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+              <img src="picture/div.features-box-image (5).png" alt="" class="h-15 mx-auto mb-4">
+
+              <h3 class="text-lg font-semibold text-gray-800 mb-4">
+                Digital Marketing
+              </h3>
+
+              <h4 class="text-sm text-gray-500 mt-1">
+                25 Courses
+              </h4>
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+    </div>
+    <!-- Hero Section -->
+    <section class="flex justify-center px-4 sm:px-8 lg:px-20 py-16">
+
+      <div class="relative w-full max-w-5xl ">
+
+        <!-- Background Image -->
+        <img src="picture/Bg.png" alt="Background" class="w-full h-auto rounded-xl">
+
+        <!-- Text Content (Top Center) -->
+        <div class="absolute top-6 sm:top-10 left-1/2
+             -translate-x-1/2
+             text-center px-4">
+          <h2 class="text-white text-xl sm:text-2xl lg:text-3xl font-semibold leading-snug">
+            Subscribe For Get Update <br>
+            Every New Courses
+          </h2>
+          <p class="text-white mt-5">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+        </div>
+
+        <!-- Search Bar (Perfect Center) -->
+        <form class="absolute top-[55%] sm:top-[58%] left-1/2
+         -translate-x-1/2
+         px-4 w-full flex justify-center">
+          <div class="relative w-full max-w-xl">
+
+            <input type="text" placeholder="Enter your email?"
+              class="w-full rounded-lg bg-gray-400 text-white p-3 pr-32 focus:outline-none" />
+
+            <button type="button" class="absolute right-2 top-1/2 -translate-y-1/2
+             bg-gradient-to-l from-violet-900 via-indigo-700 to-blue-700
+             text-white px-4 py-2 rounded-lg flex items-center gap-2">
+
+              Subscribe
+            </button>
+
+          </div>
+        </form>
+
+      </div>
+
+    </section>
+    <div class="p-20 ">
+      <div class="relative flex justify-center">
+
+        <!-- Background Image -->
+        <img src="picture/Rectangle 8691.png" class="h-100" alt="Background">
+
+        <!-- Play Icon -->
+        <div class="absolute inset-0 flex items-center justify-center">
+          <img src="picture/Group 512857.png" alt="Play Icon" class="cursor-pointer h-22">
+        </div>
+
+      </div>
+    </div>
+    <!-- heading section -->
+    <div class="pt-10 mb-0">
+      <div>
+        <h1 class="text-2xl sm:text-3xl mb-3 text-blue-600 text-center">
+          Testimonials
+        </h1>
+        <p class="text-center text-gray-500 text-sm sm:text-base px-4">
+          What our student say about us
+        </p>
+      </div>
+
+      <div class="flex justify-center p-6 sm:p-10">
+        <img src="picture/girlimg.png" alt="" class="rounded-xl
+         w-full
+         max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-5xl
+         mx-auto
+         mb-16 sm:mb-20" />
+
+
+      </div>
+
+      <!-- Footer Section -->
+      <footer class="bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 text-white">
+        <div class="max-w-7xl mx-auto px-6 py-12">
+
+          <!-- Top Section -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
+
+            <!-- Connect -->
+            <div class="flex flex-col items-center md:items-start text-center md:text-left">
+              <h3 class="text-lg font-semibold mb-4">Connect</h3>
+              <img src="picture/logo-removebg-preview.png" class="h-16 mb-4" alt="Logo">
+              <p class="text-sm opacity-90 leading-relaxed">
+                Sri Jagannath Nivas, 8-1-164/345/A/1,<br>
+                Pragati Colony, Mailardevpally,<br>
+                Nawab Saheb Kunta, Hyd – 500005
+              </p>
+            </div>
+
+            <!-- Classes -->
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Classes</h3>
+              <ul class="space-y-2 text-sm opacity-90">
+                <li>Classroom courses</li>
+                <li>Virtual classroom courses</li>
+                <li>E-learning courses</li>
+                <li>Video Courses</li>
+                <li>Offline Courses</li>
+              </ul>
+            </div>
+
+            <!-- Community -->
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Community</h3>
+              <ul class="space-y-2 text-sm opacity-90">
+                <li>Learners</li>
+                <li>Partners</li>
+                <li>Developers</li>
+                <li>Transactions</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+              <ul class="space-y-2 text-sm opacity-90">
+                <li>Home</li>
+                <li>Professional Education</li>
+                <li>Courses</li>
+                <li>Admissions</li>
+                <li>Testimonial</li>
+                <li>Programs</li>
+              </ul>
+            </div>
+
+            <!-- More -->
+            <div>
+              <h3 class="text-lg font-semibold mb-4">More</h3>
+              <ul class="space-y-2 text-sm opacity-90">
+                <li>Press</li>
+                <li>Investors</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+                <li>Help</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!-- Divider -->
+          <div class=" my-10"></div>
+
+          <!-- Social Icons -->
+          <div class="flex justify-center gap-4 mb-6">
+            <a href="#" class="bg-white text-pink-600 p-2 rounded-full">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="bg-white text-green-500 p-2 rounded-full">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" class="bg-white text-blue-500 p-2 rounded-full">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="bg-white text-blue-700 p-2 rounded-full">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="bg-white text-red-600 p-2 rounded-full">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+
+          <!-- Copyright -->
+          <p class="text-center text-sm opacity-90 ">
+            Copyright © 2025 AskmeIdentity. All Rights Reserved
+          </p>
+
+        </div>
+      </footer>
+</body>
+
+
+</html>
